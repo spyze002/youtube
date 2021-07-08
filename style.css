@@ -208,7 +208,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
-    padding: 10px;
+    padding: 6px;
     width: 1450px;
     height: 100vh;
     background-color: #EAE9EC;
@@ -224,18 +224,21 @@ span{
 .one{
    display:flex;
    flex-direction: column;
-   justify-content: space-evenly;
    flex-wrap: wrap;
-   padding: 12px;
+   padding: 2px;
    align-items: center;
    text-align: center;
 }
-/*
+
 .rounded{
     background-color: salmon;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 250px;
+    margin-top: 12px;
 }
-*/
+
 /*
 .two{
 
