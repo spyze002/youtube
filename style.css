@@ -114,28 +114,29 @@ body{
     background-color: red;
     cursor: pointer;
 }
-p{
+#paragraph{
+    display: flex;
     background-color: #EAE9EC;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 80px;
     height: 24px;
     border-radius: 16px;
-    align-items: center;
-    text-align: center;
+    margin: 12px 0px 0px 12px;
     cursor: pointer;
+
     margin-top: 44px;
 }
 
 .recommended{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    justify-content: space-around;
     margin: 20px 0px 0px 90px;
     position: sticky;
     top: 0;
     z-index: 1;
     border-bottom: 1px solid hsl(0, 0%, 18.82%);
-    margin-bottom: 12px;
 }
 .center-left{
     display: inline-block;
